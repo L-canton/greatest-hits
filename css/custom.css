@@ -7,10 +7,27 @@ p.title {
   font-weight: bold;
 }
 
+p.medium {
+  font-size: 60%;
+}
+
+li.small {
+  font-size: 50%;
+}
+
 div.left {
+  left: -8.33%;
+  text-align: left;
   float: left;
+  width: 50%;
+  z-index: -10;
 }
 
 div.right {
+  left: 31.25%;
+  text-align: left;
   float: right;
+  width: 50%;
+  z-index: -10;
+  top: 75px;
 }
