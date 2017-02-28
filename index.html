@@ -7,10 +7,9 @@
     <title>Software Engineering's Greatest Hits</title>
 
     <link rel="stylesheet" href="css/reveal.css">
-    <link rel="stylesheet" href="css/theme/black.css">
-
-    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="css/theme/sky.css">
     <link rel="stylesheet" href="lib/css/zenburn.css">
+    <link rel="stylesheet" href="css/custom.css">
 
     <!-- Printing and PDF exports -->
     <script>
@@ -24,6 +23,39 @@
   <body>
     <div class="reveal">
       <div class="slides">
+
+	<!-- @ title page -->
+        <section style="text-align: center;">
+	  <h2>Software Engineering's Greatest Hits</h2>
+	  <h3><a href="http://third-bit.com">Greg Wilson</a></h3>
+	  <p><a href="mailto:gvwilson@third-bit.com">gvwilson@third-bit.com</a></p>
+	  <p>&nbsp;</p>
+	  <div>
+	    <div class="left">
+	      <h4>March 2017</h4>
+	    </div>
+	    <div class="right" align="right">
+	      <img src="img/cc-by.svg" alt="CC-BY" />
+	    </div>
+	  </div>
+	</section>
+
+	<!-- @ images -->
+        <section style="text-align: center;">
+	  <img src="img/cigarettes.png" alt="Cigarettes" />
+	</section>
+        <section style="text-align: center;">
+	  <img src="img/james-lind.jpg" alt="James Lind" />
+	</section>
+        <section style="text-align: center;">
+	  <img src="img/lungs.jpg" alt="Lungs" />
+	</section>
+        <section style="text-align: center;">
+	  <img src="img/sea-battle.jpg" alt="Sea Battle" />
+	</section>
+
+
+
         <section>Slide 1</section>
         <section>Slide 2</section>
 	<section>
@@ -66,8 +98,8 @@
       // More info https://github.com/hakimel/reveal.js#configuration
       Reveal.initialize({
         history: true,
-
-        // More info https://github.com/hakimel/reveal.js#dependencies
+        center: false,
+        slideNumber: true,
         dependencies: [
           { src: 'plugin/markdown/marked.js' },
           { src: 'plugin/markdown/markdown.js' },
